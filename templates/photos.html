@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red, pink, lightgreen);
+            background-clip: text;
+            color: transparent;
+            margin: 0;
+            padding: 20px 0;
+            font-size: 2em;
+        }
+
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .photos-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .photo-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .photo-card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .photo-card .photo-info {
+            padding: 15px;
+        }
+
+        .photo-card h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .photo-card p {
+            color: #555;
+            line-height: 1.6;
+        }
+    </style>
+    <title>Photos - COVID-19 Detection Hub</title>
+</head>
+<body>
+    <header>
+        <h1><b>🦠 COVID-19 DETECTION! 🦠</b></h1>
+    </header>
+    <nav>
+        <a href="/">HOME</a>
+        <a href="/about">ABOUT</a>
+        <a href="/photos">PHOTOS</a>
+        <a href="/upload">Go to Upload Image</a>
+        <!-- Add more navigation links as needed -->
+    </nav>
+    <main>
+        <div class="photos-container">
+            <div class="photo-card">
+                <img src="https://images.pexels.com/photos/3992945/pexels-photo-3992945.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Photo 1"  width="300px" height="50px">
+                <div class="photo-info">
+                    <h3>Photo 1</h3>
+                    <p>COVID-19, caused by the SARS-CoV-2 virus, is a highly contagious respiratory illness that emerged in late 2019. 
+                        <br>The virus spreads primarily through respiratory droplets, and common symptoms include fever, cough, and difficulty breathing. 
+                        <br>It has led to a global pandemic, impacting communities worldwide. Preventive measures such as vaccination, wearing masks, and practicing good hygiene are crucial in mitigating its spread.</p>
+
+                </div>
+            </div>
+
+            <!--<div class="photo-card">
+                <img src="https://example.com/photo2.jpg" alt="Photo 2">
+                <div class="photo-info">
+                    <h3>Photo 2</h3>
+                    <p>Description of the second photo goes here.</p>
+                </div>
+            </div>-->
+
+            <!-- Add more photo cards as needed -->
+
+        </div>
+    </main>
+</body>
+</html>
